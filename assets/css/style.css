@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Kdam+Thmor+Pro&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Kanti, sans-serif;
+    font-weight: 300;
+}
+
+/* heading and link styles*/
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+    list-style: none;
+    font-family: Kdam Thmor Pro, sans-serif;
+    
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Kdam Thmor Pro, sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+#head {
+    float: left;
+    font-size: 500%;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    
+}
