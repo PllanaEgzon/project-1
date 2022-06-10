@@ -6,6 +6,8 @@
     border: none;
 }
 
+
+
 body {
     font-family: Kanti, sans-serif;
     font-weight: 300;
@@ -29,6 +31,7 @@ body {
 
 #menu a {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 h1, h2 {
@@ -43,9 +46,14 @@ h1, h2 {
     text-decoration: none;
 }
 
-#menu a:hover {
-    
+header h1 {
+    color: whitesmoke;
 }
+
+#menu a:hover {
+    color: black;
+}
+
 
 /* image */
 
@@ -69,18 +77,17 @@ h1, h2 {
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: left;
     
     width: 230px;
-    height: 350px;
+    height: 330px;
 
     padding-top: 10px;
     padding-left: 25px;
-    
-
+      
     background-color: rgba(147, 242, 147, 0.6);
 
-    bottom: -100px;
-
+    bottom: -137px;
 
     position: absolute;
 }
@@ -93,7 +100,7 @@ h1, h2 {
     letter-spacing: 3px;
     
     width: 230px;
-    height: 525px;
+    height: 522px;
 
 
     padding-left: 25px;
@@ -105,5 +112,70 @@ h1, h2 {
     bottom: -137px;
     left: 370px;
 
+    position: absolute;
+}
+
+#goku {
+    color: whitesmoke;
+    font-size: 130%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    
+    width: 230px;
+    height: 235px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    background-color: rgba(53, 72, 176, 0.5);
+
+    bottom: -137px;
+    left: 758px;
+
+    position: absolute;
+}
+
+#naruto {
+    color: black;
+    font-size: 130%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    
+    width: 230px;
+    height: 380px;
+
+
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+    background-color: rgba(235, 149, 50, .5);
+
+    bottom: -137px;
+    right: 517px;
+
+    position: absolute;
+}
+
+#tanjiro {
+    color: whitesmoke;
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: right;
+    
+    width: 230px;
+    height: 380px;
+
+    padding-top: 10px;
+    padding-left: 25px;
+      
+    background-color: rgba(0, 106, 255, 0.3);
+
+    bottom: -137px;
+    right: 0;
+    
     position: absolute;
 }
