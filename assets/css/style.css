@@ -97,7 +97,7 @@ header h1 {
 
     bottom: -137px;
 
-    position: absolute;
+    position: fixed;
 }
 
 #luffy {
@@ -120,7 +120,7 @@ header h1 {
     bottom: -137px;
     left: 370px;
 
-    position: absolute;
+    position: fixed;
 }
 
 #goku {
@@ -141,7 +141,7 @@ header h1 {
     bottom: -137px;
     left: 758px;
 
-    position: absolute;
+    position: fixed;
 }
 
 #naruto {
@@ -164,7 +164,7 @@ header h1 {
     bottom: -137px;
     right: 517px;
 
-    position: absolute;
+    position: fixed;
 }
 
 #tanjiro {
@@ -185,7 +185,7 @@ header h1 {
     bottom: -137px;
     right: 0;
     
-    position: absolute;
+    position: fixed;
 }
 
 /* Anime story */
