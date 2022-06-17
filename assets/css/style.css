@@ -243,3 +243,106 @@ footer {
     margin: 1%;
     padding: 2.5%;
 }
+
+/* for tablets */
+
+@media screen and (max-width: 1200px){
+    
+    #home {
+        width: 1200;
+        height: 65%;
+        margin: 0 auto;
+    }
+    
+    #head {
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu {
+        width: 100%;
+        padding: 0;
+    }
+
+    #anime-head {
+        width: 100%;
+        height: 70px;
+    }
+
+    #anime-image {
+        width: 100%;
+        height: 960px;
+        
+    }
+
+    #deku {
+        width: 17%;
+        height: 140px;
+        text-align: left;
+        font-size: 12.5px; 
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: -150px;
+        position: absolute;
+    }
+
+    #luffy {
+        width: 18.4%;
+        height: 150px;
+        text-align: center;
+        font-size: 11.5px;
+        padding-left: 5px;
+        padding-right: -5px;
+        margin-bottom: -150px;
+        margin-left: -159px;
+        position: absolute;
+    }
+
+    #goku {
+        width: 25%;
+        height: 150px;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 5px;
+        margin-left: -315px;
+        margin-bottom: -150px;
+    }
+
+    #naruto {
+        width: 18.4%;
+        height: 150px;
+        text-align: center;
+        font-size: 13px;
+        padding-left: 5px;
+        margin-right: -311px;
+        margin-bottom: -150px;
+    }
+
+    #tanjiro {
+        width: 17%;
+        height: 140px;
+        text-align: right;
+        font-size: 12.5px;
+        padding-left: 5px;
+        margin-right: 0;
+        margin-bottom: -150px;
+    }
+
+    .div-h2  {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #anime {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .socials {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
