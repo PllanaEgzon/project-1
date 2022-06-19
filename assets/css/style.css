@@ -11,16 +11,17 @@
 body {
     font-family: Kanti, sans-serif;
     font-weight: 300;
+    width: 100%;
 }
 
 /* heading and link styles*/
 
-#menu {
+#link {
     font-size: 150%;
     letter-spacing: 3px;
 }
 
-#menu li {
+#link li {
     float: right;
     margin-top: 50px;
     margin-left: 50px;
@@ -30,7 +31,7 @@ body {
     
 }
 
-#menu a {
+#link a {
     text-decoration: none;
     color: black;
 }
@@ -41,7 +42,7 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#head {
+#title {
     float: left;
     font-size: 500%;
     text-decoration: none;
@@ -51,7 +52,7 @@ header h1 {
     color: black;
 }
 
-#menu a:hover {
+#link a:hover {
     text-decoration: underline;
 }
 
@@ -64,7 +65,7 @@ header h1 {
     background: url("../images/crossover.jpg") no-repeat center center;
 }
 
-#anime-head {
+#anime-h2 {
     color: #FFE8FF;
     background-color: rgba(115, 172, 173, 0.6);
     text-transform: capitalize;
@@ -72,15 +73,15 @@ header h1 {
     text-align: center;
 }
 
-#anime-outside {
+#anime-body {
     width: 100%;
     height: 950px;
     overflow: hidden;
 }
 
-/* quote boxes */
+/* Quote boxes from characters*/
 
-#deku {
+#character-deku {
     color: #3C6383;
     font-size: 130%;
     text-transform: uppercase;
@@ -100,7 +101,7 @@ header h1 {
     position: absolute;
 }
 
-#luffy {
+#character-luffy {
     color: #333131;
     font-size: 130%;
     text-transform: uppercase;
@@ -123,7 +124,7 @@ header h1 {
     position: absolute;
 }
 
-#goku {
+#character-goku {
     color: whitesmoke;
     font-size: 130%;
     text-transform: uppercase;
@@ -144,7 +145,7 @@ header h1 {
     position: absolute;
 }
 
-#naruto {
+#character-naruto {
     color: black;
     font-size: 130%;
     text-transform: uppercase;
@@ -167,7 +168,7 @@ header h1 {
     position: absolute;
 }
 
-#tanjiro {
+#character-tanjiro {
     color: whitesmoke;
     font-size: 130%;
     text-transform: uppercase;
@@ -190,7 +191,7 @@ header h1 {
 
 /* Anime story */
 
-.div-h2 {
+.facts-suggestion {
     font-family: Kdam Thmor Pro, sans-serif;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -198,12 +199,22 @@ header h1 {
     color: whitesmoke;
     font-size: 500%;
     text-align: center;
+    padding-top: 100px;
+}
 
+.facts-suggestion-2 {
+    font-family: Kdam Thmor Pro, sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 500%;
+    text-align: center;
     padding-top: 100px;
 }
 
 
-.anime-story {
+.how-to-start {
     color: whitesmoke;
     background-color: black;
     text-align: center;
@@ -227,7 +238,6 @@ footer {
 .socials {
     text-align: center;
     list-style: none;
-
     margin-top: 100px;
 }
 
@@ -254,7 +264,7 @@ footer {
         margin: 0 auto;
     }
     
-    #head {
+    #title {
         padding: 0;
         margin: 0;
     }
@@ -274,7 +284,7 @@ footer {
         height: 960px;
     }
 
-    #deku {
+    #character-deku {
         width: 17%;
         height: 140px;
         text-align: left;
@@ -285,7 +295,7 @@ footer {
         position: absolute;
     }
 
-    #luffy {
+    #character-luffy {
         width: 18.4%;
         height: 150px;
         text-align: center;
@@ -297,7 +307,7 @@ footer {
         position: absolute;
     }
 
-    #goku {
+    #character-goku {
         width: 25%;
         height: 150px;
         text-align: center;
@@ -307,7 +317,7 @@ footer {
         margin-bottom: -150px;
     }
 
-    #naruto {
+    #character-naruto {
         width: 18.4%;
         height: 150px;
         text-align: center;
@@ -317,7 +327,7 @@ footer {
         margin-bottom: -150px;
     }
 
-    #tanjiro {
+    #character-tanjiro {
         width: 17%;
         height: 140px;
         text-align: right;
@@ -327,7 +337,7 @@ footer {
         margin-bottom: -150px;
     }
 
-    .div-h2  {
+    .anime-h2  {
         width: 100%;
         font-size: 90px;
         text-align: center;
@@ -336,9 +346,14 @@ footer {
         
     }
 
-    #anime-story {
+    .how-to-start {
         width: 100%;
         text-align: center;
+    }
+
+    .facts-suggestion {
+        width: 100%;
+        padding-top: 200px;
     }
 
     .socials {
@@ -356,10 +371,11 @@ footer {
         width: 100%;
         height: 100px;
         margin: 0 auto;  
-        font-size: 10px;    
+        font-size: 9px;   
+         
     }
 
-    #menu {
+    #title {
         width: 100%;
         height: 20px;
     }
@@ -368,61 +384,68 @@ footer {
         width: 100%;
     }
 
-    #anime-head {
+    #anime-h2 {
         width: 100%;
         height: 140px;
         text-align: center;
     }
 
-    #deku {
+    #character-deku {
         width: 15%;
         height: 140px;
         font-size: 9px;
-        padding-bottom: 24px;
+        padding-bottom: 7px;
         text-align: left;
     }
 
-    #luffy {
+    #character-luffy {
         width: 20%;
-        height: 174px;
+        height: 157px;
         font-size: 8.8px;
         text-align: center;
-        padding-bottom: 0;
+        margin-top: 50px;
         margin-left: -273px;
+        
     }
 
-    #goku {
+    #character-goku {
         width: 21.6%;
-        height: 140px;
+        height: 124px;
         font-size: 12px;
         text-align: center;
         padding-bottom: 34px;
         margin-left: -530px;
     }
-    #naruto {
+    #character-naruto {
         width: 20%;
-        height: 140px;
+        height: 123px;
         font-size: 10px;
         text-align: center;
         padding-bottom: 34px;
         margin-right: -425px;
     }
 
-    #tanjiro {
+    #character-tanjiro {
         width: 15%;
-        height: 160px;
-        font-size: 9px;
-        padding-bottom: 4px;
+        height: 147px;
+        font-size: 8px;
+        
     }
 
-    .div-h2 {
+    .facts-suggestion {
         width: 100%;
         font-size: 40px;
         padding-top: 170px;
         
     }
 
-    .anime-story {
+    .facts-suggestion-2 {
+        width: 100%;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .how-to-start {
         width: 100%;
         font-size: 25px;
         text-align: center;
@@ -434,5 +457,111 @@ footer {
         text-align: center;
         padding: 25px;
         
+    }
+}
+
+/* Iphone 12 Pro */
+@media screen and (max-width: 390px) {
+    #home {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #title {
+        width: 100%;
+        height: 20px;
+        padding-top: 10px;
+        
+    }
+
+    #link li {
+        width: 100%;
+        font-size: 100%;
+        text-align: right;
+        letter-spacing: 1px;
+        margin: 5px;
+    }
+
+    #anime-image {
+        width: 100%;
+    }
+
+    #anime-h2 {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #character-deku {
+        width: 100%;
+        height: 30px;
+        font-size: 11px;
+        padding-bottom: 21px;
+        text-align: center;
+    }
+
+    #character-luffy {
+        width: 100%;
+        height: 70px;
+        font-size: 10px;
+        text-align: center;
+        margin-left: -370px;
+        margin-bottom: -220px;
+    }
+
+    #character-goku {
+        width: 100%;
+        height: 25px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: -757px;
+        margin-bottom: -279px;
+    }
+    #character-naruto {
+        width: 100%;
+        height: 15px;
+        font-size: 10px;
+        text-align: center;
+        margin-right: -520px;
+        margin-bottom: -328px;
+    }
+
+    #character-tanjiro {
+        width: 100%;
+        height: 40px;
+        font-size: 10px;
+        margin-bottom: -382px;
+        text-align: center;
+    }
+
+    .facts-suggestion {
+        width: 100%;
+        font-size: 40px;
+        padding-top: 300px; 
+    }
+
+    .facts-suggestion-2 {
+        width: 100%;
+        font-size: 40px;
+        padding-top: 100px; 
+    }
+
+    .how-to-start {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .socials li {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    footer {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 0;
     }
 }
